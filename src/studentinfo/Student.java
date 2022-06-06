@@ -11,7 +11,7 @@ package studentinfo;
  */
 public class Student {
     private String name;
-    String program;
+    private String program;
     public Student(){
         
     }
@@ -24,6 +24,20 @@ public class Student {
     }
     public void setName(String name){
         this.name = name;
+    }
+
+    /**
+     * @return the program
+     */
+    public String getProgram() {
+        return program;
+    }
+
+    /**
+     * @param program the program to set
+     */
+    public void setProgram(String program) {
+        this.program = program;
     }
     
 
