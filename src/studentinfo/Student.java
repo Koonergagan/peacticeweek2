@@ -11,6 +11,7 @@ package studentinfo;
  */
 public class Student {
     private String name;
+    String program;
     public Student(){
         
     }
